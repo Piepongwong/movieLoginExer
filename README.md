@@ -36,12 +36,12 @@ The basic flow is as follows:
 Suggested readings:
 
 From the learning platform of week 4
-    *   Express | GET Methods - Route Params & Query String
-    *   Express | POST Method - Request Body
+*   Express | GET Methods - Route Params & Query String
+*   Express | POST Method - Request Body
 
 The World Wide Web
-    *   https://mongoosejs.com/docs/models.html
-    *   https://expressjs.com/en/4x/api.html#res.cookie
-    *   https://expressjs.com/en/4x/api.html#req.cookies
-    *   https://www.npmjs.com/package/cookie-parser
+*   https://mongoosejs.com/docs/models.html
+*   https://expressjs.com/en/4x/api.html#res.cookie
+*   https://expressjs.com/en/4x/api.html#req.cookies
+*   https://www.npmjs.com/package/cookie-parser
 
