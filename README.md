@@ -32,6 +32,9 @@ The basic flow is as follows:
     If cookie was set: show page (render it)
     If not `res.redirect` the user to the sign up page
 
+### Component 5
+Was the fun in logging in if you can't log out? Create a logout route that clears your cookie. Remember "RTFM": https://expressjs.com/en/api.html#res.clearCookie.
+
 
 Suggested readings:
 
