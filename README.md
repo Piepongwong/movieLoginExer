@@ -35,6 +35,11 @@ The basic flow is as follows:
 ### Component 5
 What's the fun in logging in if you can't log out Create a logout route that clears your cookie. Remember "RTFM": https://expressjs.com/en/api.html#res.clearCookie.
 
+### Component 6
+Oh oh, your code is getting chaotic! We've to clean up that mess. Create a routes folder and make a module out of every route and require it in your root file (app.js). Do the same with the mongoose models. That's better isn't it? No more scrolling to find the code you're looking for. This [resource](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Routes_primer) is helpfull.
+
+### Component 7
+It's time to increase the readability of your code further by using promises. Rewrite all your code in such a way, that mongoose is no longer using callback to handle asynchronous code, but promises. 
 
 #### Suggested readings:
 
