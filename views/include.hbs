@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  {{> nav}}
+  <h2 class="sign add">Didn't find your favorite movie? Just add it filling in the fields below:</h2>
+  <form class="form-container" action="/include" method="post">
+    <div class="line">
+      <label for="title">Title: &nbsp</label>
+      <input class="input-resize-small" type="text" name="title" placeholder="title">
+    </div>
+    <br>
+    <div class="line">
+      <label for="director">Director:&nbsp</label>
+      <input class="input-resize-small" type="text" name="director" placeholder="director">
+    </div>
+    <br>
+
+    <div class="line">
+      <label for="duration">Duration:&nbsp</label>
+      <input class="input-resize-small" type="text" name="duration" placeholder="duration">
+    </div>
+    <br>
+
+    <div class="line">
+      <label for="year">Year:&nbsp</label>
+      <input class="input-resize-small" type="text" name="year" placeholder="year">
+    </div>
+    <br>
+
+    <div class="line">
+      <label for="rate">Rate:&nbsp</label>
+      <input class="input-resize-small" type="text" name="rate" placeholder="rate">
+    </div>
+    <br>
+
+    <div class="line">
+      <label for="genre">Genre:&nbsp</label>
+      <input class="input-resize-small" type="text" name="genre" placeholder="genre">
+    </div>
+    <br>
+    
+    <input class="small-button" type="submit" value="submit">
+
+  </form>
+  <br><br>
+
+  <h2 class="sign add">Is your idol not in our list? Just add it below:</h2>
+  <form class="form-container" action="/incstar" method="post">
+    <div class="line">
+      <label for="firstname">Name:&nbsp</label>
+      <input class="input-resize-small" type="text" name="firstname" placeholder="firstname">
+    </div>
+    <br>
+
+    <div class="line">
+      <label for="lastname">Surname:&nbsp</label>
+      <input class="input-resize-small" type="text" name="lastname" placeholder="lastname">
+    </div>
+    <br>
+
+    <div class="line">
+      <label for="nationality">Country:&nbsp</label>
+      <input class="input-resize-small" type="text" name="nationality" placeholder="nationality">
+    </div>
+    <br>
+    
+    <input class="small-button" type="submit" value="submit">
+
+  </form>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</body>
+</html>

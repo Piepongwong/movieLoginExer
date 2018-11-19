@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="reset.css" type="text/css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+  <ul class="nav">
+    <li><a href="/">Movies</a></li>
+    <li><a href="/celebrities">Celebrities</a></li>
+    <li><a href="/include">New</a></li>
+
+    {{#if loggedIn}}
+    <li><a id="logout" href="/logout">Log out</a></li>
+    {{else}}
+    <li><a id="log" href="/login">Login</a></li>
+    {{/if}}
+
+  </ul>
+</nav>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
