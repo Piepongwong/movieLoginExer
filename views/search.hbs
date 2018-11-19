@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Document</title>
+</head>
+<body>
+  {{>navbar}}
+  <form action="/search" method ="post" id="searchForm">
+  <h1>Search movies by director</h1><br>
+  <input type="text" name="movie" placeholder="Director" id="input"><br>
+  <button type="submit">Search</button>
+</form>
+  <form action="/celeb" method ="post" id="searchForm">
+  <h1>Search movies by celebrity</h1><br>
+  <input type="text" name="celeb" placeholder="Celebrity" id="input"><br>
+  <button type="submit">Search</button>
+</form>
+{{>user}}
+</body>
+</html>

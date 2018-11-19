@@ -1,0 +1,232 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-size: 1.3em;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+nav{
+background-color: black;
+position: fixed;
+height: 80px;
+display: flex;
+justify-content: center;
+width: 100%;
+font-family: 'Allerta Stencil', sans-serif;
+border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+}
+
+#loginForm{
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 80px;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  margin: 0 auto;
+  width: 23%;
+}
+
+#loginForm > h1{
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2em;
+  margin: 0 auto 1.2rem auto;
+  width: 50%;
+  max-width: 50vw;
+  line-height: 50px;
+  text-shadow: 4px 4px 0px grey, 
+  7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+#signupButton{
+  position: absolute;
+  bottom: 0;
+}
+
+#searchForm{
+  background-color: black;
+  color: yellow;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding:65px;
+  margin: 40px;
+}
+
+#searchForm > input {
+  border-bottom: 4px solid yellow;
+  width: 250px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: yellow;
+  font-family: 'Roboto';
+  padding: 10px;
+  display: block;
+  margin:0 0 20px 0;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+
+#searchForm > h1{
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  background-color: black;
+
+}
+nav > ul{
+  list-style-type: none;
+  color: yellow;
+
+
+}
+nav > ul > li{
+display: inline;
+margin-right: 100px;
+
+}
+
+#logoutButton{
+  position: absolute;
+  right: 2%;
+  top: 25%;
+  padding: 10px;
+}
+
+
+input{
+  width: 250px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: yellow;
+  font-family: 'Roboto';
+  padding: 10px;
+  display: block;
+  margin:0 0 20px 0;
+  border-bottom: 4px solid yellow;
+  font-size: 1.2rem;
+}
+
+
+#log{
+margin-top: 45px;
+font-size: 0.8em;
+font-weight: 900;
+color: yellow;
+}
+ 
+
+input:focus{
+  outline: none;
+}
+*::placeholder{
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 0.9;
+  position: relative;
+  left: 5px;
+  font-weight: 700;
+}
+
+button{
+  background-color: black;
+  color: yellow;
+  text-transform: uppercase;
+  padding: 15px;
+  border: 3px solid yellow;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 0 10px 0 10px;
+  
+}
+
+button:hover{
+  background-color: yellow;
+  color: black;
+}
+
+button::placeholder{
+  color:yellow;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: yellow;
+  cursor: pointer;
+  margin-right: 60px;
+  text-transform: uppercase;
+  top: 5px;
+  position: relative;
+}
+
+.infoContainer{
+  width: 31%;
+  box-shadow:-9px 7px 23px -2px rgba(0,0,0,0.75);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.5);
+  position: relative;
+  background-color: yellow;
+  }
+  
+  .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: FLEX-START;
+    align-content: center;
+    position: absolute;
+    top: 10%;
+  }
+
+  .containerCreate{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .createForm{
+   margin-left: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: absolute;
+   top: 20%;
+  }
+
+  #createForm{
+   margin-left: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: absolute;
+   top: 20%;
+   left: 35%;
+  }
+
+  .account{
+    color: yellow;
+    width: 450px;
+    display: inline-block;
+  }
+
+  #signup{
+    display: inline-block;
+    text-decoration: underline;
+    text-transform: none;
+    font-size: 1em;
+    position: relative;
+    bottom: 20px;
+  }
+
