@@ -9,6 +9,8 @@ app.get('/', function(req, res) {
 })
 
 app.post("/", function(req, res) {
+  
+  //
   bcrypt.hash(req.body.password, 5, function(err, encryptedPassword) {
     if (err) res.send("ERROR")
     else {
