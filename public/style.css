@@ -62,6 +62,14 @@ nav a {
   flex-wrap: nowrap;
   justify-content: space-around;
 }
+.big {
+  font-size: 2em;
+  /* background: -webkit-linear-gradient(rgb(19, 160, 125), rgb(140, 25, 235)); */
+  background: linear-gradient(135deg, rgba(133,44,235,1) 0%, rgba(45,240,130,1) 69%, rgba(45,240,130,1) 85%, rgba(45,240,130,1) 92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .movie-container {
   width: 40%;
