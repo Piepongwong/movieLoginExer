@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  {{>navbar}}
+  <h2>What do you want to add to the database?</h2>
+<div class="containerCreate">
+  <form action= "/create" method="post" class="createForm">
+    <input type="text" name="title" class="createInput" placeholder="title">
+    <input type="text" name="year" class="createInput" placeholder="year">
+    <input type="text" name="director" class="createInput" placeholder="director">
+    <input type="text" name="duration" class="createInput" placeholder="duration">
+    <input type="text" name="genre" class="createInput" placeholder="genre">
+    <input type="text" name="rate" class="createInput" placeholder="rate">
+    <button type="submit" id="submitCreate">Add Movie</button>
+  </form>
+  <form action= "/create/createCeleb" method="post" id="createForm">
+    <input type="text" name="name" class="createInput" placeholder="Name">
+    <input type="text" name="lastName" class="createInput" placeholder="Last Name">
+    <input type="text" name="nationality" class="createInput" placeholder="Nationality">
+    <button type="submit" id="submitCreate">Add Celebrity</button>
+  </form>
+</div>
+</body>
+</html>
