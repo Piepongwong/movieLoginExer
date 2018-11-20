@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 
 app.post("/", function(req, res) {
   var user = new User(req.body);
-  User.find({email: req.body.email})
+  User.find({$or: [{username: req.body.username},{email: req.body.email}]})
   .then((result)=>{
     if (result.length == 0) {
       bcrypt.hash(req.body.password, 5, function(err, encryptedPassword) {
