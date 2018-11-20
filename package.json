@@ -1,0 +1,28 @@
+{
+  "name": "movieLoginExer",
+  "version": "1.0.0",
+  "description": "We're going to create a movie fan club web app. Users (fans) can search for all the imdb movies, add celebrities and movies. This is a very selective club. Only users that have signed up can access the database and add documents to it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anakellyc/movieLoginExer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anakellyc/movieLoginExer/issues"
+  },
+  "homepage": "https://github.com/anakellyc/movieLoginExer#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.3.12"
+  }
+}

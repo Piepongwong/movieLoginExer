@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  {{> nav}}
+  <h1 class="sign">This account already exists. Try a different username or email.</h1>
+  <br><br>
+  <form class="form-container" action="signup" method="POST">
+    <div class="form-container">
+      <label for="username">Username</label>
+      <input type="text" name="username" placeholder="username">
+    </div>
+    <br>
+
+    <div class="form-container">
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="email">
+    </div>
+    <br>
+
+    <div class="form-container">
+      <label for="firstname">Name</label>
+      <input type="text" name="firstname" placeholder="name">
+    </div>
+    <br>
+
+    <div class="form-container">
+      <label for="lastname">Surname</label>
+      <input type="text" name="lastname" placeholder="surname">
+    </div>
+    <br>
+
+    <div class="form-container">
+      <label for="password">Password</label>
+      <input type="password" name="password" placeholder="password">
+    </div>
+    <br>
+
+    <input class="small-button" type="submit" value="submit">
+  </form>
+  
+</body>
+</html>
